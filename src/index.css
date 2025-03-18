@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Compact Footer Styling */
+.footer {
+  background: #004080;
+  color: white;
+  padding: 8px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links, .social-icons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.footer-links li a, .social-icons li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover, .social-icons li a:hover {
+  color: #ffcc00;
+}
+
+.copyright {
+  margin: 0 0 0 15px;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer {
+    padding: 8px 0;
+  }
+  
+  .copyright {
+    margin-top: 6px;
+  }
+}
