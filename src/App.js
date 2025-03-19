@@ -12,6 +12,7 @@ import NewsEvents from "./pages/NewsEvents";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import "./styles/global.css";
+import CoAuthors from "./pages/CoAuthors";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/news-events" element={<NewsEvents />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/co-authors" element={<CoAuthors />} />
       </Routes>
       <Footer />
     </Router>

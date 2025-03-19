@@ -27,6 +27,7 @@ const Navbar = () => {
           <li><Link to="/news-events" onClick={() => setMenuOpen(false)}>News & Events</Link></li>
           <li><Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link></li>
           <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+          <li><Link to="/co-authors" onClick={() => setMenuOpen(false)}>CoAuthors</Link></li>
         </ul>
       </div>
     </nav>
