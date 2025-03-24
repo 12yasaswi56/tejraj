@@ -533,7 +533,7 @@ body {
   /* Navbar Container */
   .container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between; /* Ensures name on left & menu on right */
     max-width: 1200px;
     margin: auto;

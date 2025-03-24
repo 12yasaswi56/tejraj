@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         {/* Prof. Aminabhavi Name (Separate Styling) */}
-        <h1 className="navbar-logo">Prof. Aminabhavi</h1>
+        <h1 className="navbar-logo">Prof. Tejraj M. Aminabhavi</h1>
 
         {/* Mobile Menu Button */}
         <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
